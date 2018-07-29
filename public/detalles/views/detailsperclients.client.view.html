@@ -1,0 +1,28 @@
+<table class="table table-stripped table-responsive centrar" ng-controller="DetallesController">
+		<thead>
+				<tr>
+					<th class="centrar">Codigo</th>
+					<th class="centrar">Descripcion</th>
+					<th class="centrar">Precio Unitario</th>
+					<th class="centrar">Cantidad</th>
+					<th class="centrar">Precio Total</th>
+					<th class="centrar">Pagado</th>
+					<th class="centrar">Pendiente</th>
+				</tr>
+		</thead>
+		<tbody>
+				<tr ng-repeat="item in detallesxcliente">
+					<td>{{item.idproducto}}</td>
+					<td>{{item.descripcionproducto}}</td>
+					<td class="verde negrita">S/. {{(item.preciofinal)/item.cantidadproducto | number:2}}</td>
+					<td>{{item.cantidadproducto}}</td>
+					<td>S/. {{item.preciofinal | number:2}}</td>
+					<td>S/. {{item.payperitem | number:2}}</td>
+					<td>S/. {{item.preciofinal - item.payperitem}}</td>
+
+				</tr>
+		</tbody>
+</table>
+
+
+

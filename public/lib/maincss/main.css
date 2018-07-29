@@ -1,0 +1,73 @@
+.imagenproducto{
+	width: 250px !important;
+	height: 160px !important;
+}
+
+
+.descuento{
+	color:red;
+	text-decoration:line-through;
+	text-align:center;
+}
+
+.negrita{
+	font-weight:bold;	
+}
+
+.preciofinal{
+	color:green;
+	font-size:14px;
+	text-align:center;
+	
+}
+
+.verde{
+	color:green;
+	
+}
+
+
+table th td{
+	text-align: center;	
+}
+
+.centrar{
+	text-align:center;
+	font-size:12px!important;
+
+}
+
+
+.centrar10 td{
+	text-align:center;
+	font-size:12px!important;
+
+}
+
+
+
+.headercenter th{
+	text-align:center;
+	background-color: #585858;
+	color: #FFFFFF;
+	font-size:12px!important;	
+}
+
+
+.left{
+	text-align:left;	
+}
+
+
+.detalle{
+	background-color:#FFFF66;
+	
+}
+
+
+.headervisits th{
+	text-align:center;
+	background-color: #F8FFDA;
+	color: #010101;
+	font-size:12px!important;	
+}
